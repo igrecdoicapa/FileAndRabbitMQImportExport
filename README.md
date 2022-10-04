@@ -1,4 +1,5 @@
 # FileAndRabbitMQImportExport
+
 Prerequisites:
 
 -install RabbitMQ
@@ -18,6 +19,7 @@ Prerequisites:
 *stockProcessedPath with the folder you want the processed XML file to be placed (example D:\\processingFile\\logs)
 
 
+
 This project aims to:
 
 -read every 10 seconds an XML file (stocks_new.xml) and insert Products into the database;
@@ -31,23 +33,5 @@ This project aims to:
 -put a JSON message to a RabbitMQ queue after an Order was received through the queue.
 
 
-XML example for: stocks_new.xml
-<?xml version="1.0" encoding="UTF-8"?>
-<stocks>
-    <stock>
-        <product_id>1</product_id>
-        <quantity>2000</quantity>
-    </stock>
-    <stock>
-        <product_id>2</product_id>
-        <quantity>999</quantity>
-    </stock>
-    <stock>
-        <product_id>4</product_id>
-        <quantity>-1000</quantity>
-    </stock>
-</stocks>
 
-JSON example to put on the ORDERS RabbitMQ queue:
-
-{"client_name":"John","items":[{"product_id":1,"quantity":3},{"product_id":2,"quantity":6}]}
+XML and JSON examples can be found in the root folder.
