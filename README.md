@@ -35,4 +35,4 @@ This project aims to:
 
 --------------------------------------------------------------------------------------
 
-XML and JSON examples can be found in the root folder.
+XML and JSON examples can be found in the root folder (stocks_new.xml and json.json)
