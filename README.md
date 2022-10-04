@@ -19,6 +19,7 @@ Prerequisites:
 *stockProcessedPath with the folder you want the processed XML file to be placed (example D:\\processingFile\\logs)
 
 
+--------------------------------------------------------------------------------------
 
 This project aims to:
 
@@ -32,6 +33,6 @@ This project aims to:
 
 -put a JSON message to a RabbitMQ queue after an Order was received through the queue.
 
-
+--------------------------------------------------------------------------------------
 
 XML and JSON examples can be found in the root folder.
