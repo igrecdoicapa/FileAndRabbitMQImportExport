@@ -14,9 +14,9 @@ Prerequisites:
 
 *dbPassword with the password for the SQL server
 
-*stockNewPath with the folder path you want to read the XML file from (example: D:\\processingFile)
+*stockNewPath with the folder path you want to read the XML file from (example: D:\\\processingFile)
 
-*stockProcessedPath with the folder you want the processed XML file to be placed (example D:\\processingFile\\logs)
+*stockProcessedPath with the folder you want the processed XML file to be placed (example D:\\\processingFile\\\logs)
 
 
 --------------------------------------------------------------------------------------
