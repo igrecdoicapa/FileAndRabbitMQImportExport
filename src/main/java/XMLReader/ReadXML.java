@@ -69,8 +69,8 @@ public class ReadXML {
                 }
             }
             //Renaming the file in order to not go in an infinite loop
-            File processedFile = new File(stockProcessedPath + "\\stocks_processed.xml");
-            xmlDoc.renameTo(processedFile);
+            xmlDoc.renameTo(new File(stockProcessedPath + "\\stocks_processed.xml"));
+            
         } else {
             System.out.println("File does not exist.");
         }
